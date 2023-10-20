@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "security", "security", "{0CE443BD-5E64-4404-BE92-7C89099F4C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xsrf", "xsrf\xsrf.csproj", "{05FD5860-E8ED-45F8-95BB-196ACCF94661}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05FD5860-E8ED-45F8-95BB-196ACCF94661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FD5860-E8ED-45F8-95BB-196ACCF94661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FD5860-E8ED-45F8-95BB-196ACCF94661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FD5860-E8ED-45F8-95BB-196ACCF94661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05FD5860-E8ED-45F8-95BB-196ACCF94661} = {0CE443BD-5E64-4404-BE92-7C89099F4C1B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A157251-57DC-4764-B0C8-693F2384BFB2}
+	EndGlobalSection
+EndGlobal
